@@ -1,0 +1,134 @@
+/* Include Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Apply general lo-fi, pastel theme styles */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f3e9e7; /* Example pastel light brown */
+  color: #3e2723; /* Adjust as needed for contrast */
+}
+
+.App {
+  text-align: center; /* Center aligns content */
+  max-width: 800px; /* Maximum width for the content area */
+
+  margin: auto; /* Centers the content area */
+  padding: 100px 400px 400px 400px; /* Padding around the content area */
+  background-image: url('./background.gif');
+  background-size: cover; /* or 'contain' depending on how you want it to fit */
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+
+/* App.css or another CSS file */
+@font-face {
+  font-family: 'matcha';
+  src: url('./matcha.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+/* Keep original spacing for text boxes but apply the theme */
+input[type="text"],
+textarea {
+  /* width is not set here to keep the original spacing */
+  margin: auto; /* Center in the middle if block-level */
+  display: block; /* To allow margin auto to work, adjust as necessary */
+  background-color: #ffffff; /* Light pastel background for the input */
+  border: 1px solid #000000; /* Subtle border color */
+  border-radius: 4px; /* Optional: rounded corners */
+  padding: 10px;
+  font-size: 16px;
+  color: #000000; /* Text color inside inputs */
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Center buttons with flexbox */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Styles for all buttons */
+button {
+  background-color: black; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  font-family: 'matcha';
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  
+}
+
+/* Styles for buttons on hover */
+button:hover {
+  background-color: rgba(255, 255, 255, 0.0);
+  color: black; /* Text color when hovered */
+
+}
+
+/* Container to hold your content */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack vertically */
+  height: 80vh; /* Adjust based on your header/footer size */
+}
+
+/* Accessibility improvements */
+button:focus,
+input[type="text"]:focus,
+textarea:focus {
+  outline: 1px solid black; /* Clearly define focus for keyboard navigation */
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Text boxes and buttons can take more width on smaller screens */
+  input[type="text"],
+  textarea,
+  .button-container {
+    width: 80%;
+  }
+  
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 40px;
+  border: solid;
+  margin-bottom: 30px; /* Spacing between sections */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.container h1, .container h2 {
+  margin-bottom: 15px; /* Spacing below headers */
+  font-family: 'matcha', sans-serif;
+}
+
+.container input {
+  width: 80%; /* Increase the size of the input fields */
+  max-width: 600px; /* Adjust as needed */
+  margin-bottom: 20px; /* Spacing between elements */
+  background-color: rgba(255, 255, 255, 0.5);
+  border: .5px solid black; /* Thick black border */
+
+}
+
+/* Add additional styles as needed */
+
+

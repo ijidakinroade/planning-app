@@ -1,0 +1,16 @@
+/* File: src/components/DailySchedule.css */
+
+.daily-schedule {
+    margin: 20px;
+  }
+  
+  .daily-schedule textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .daily-schedule button {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,8 @@
+/* MusicPlayer.css */
+.music-play-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px; /* Adjust size of the play icon */
+  color: #8878c3 /* Choose a color that fits your theme */
+}

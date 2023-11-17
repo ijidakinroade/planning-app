@@ -1,0 +1,46 @@
+/* Header.css */
+.header {
+  background-color: #fff; /* or any color that fits your theme */
+  padding: 10px; /* industry-standard padding */
+  display: flex;
+  align-items: center;
+  justify-content: start; /* Align items to the start (left) */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+ 
+
+}
+
+.header-content {
+  max-width: 1200px; /* Or your preferred max width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header .logo {
+  margin-top: 20px;
+  width: 150px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adds space between logo and text */
+}
+
+.header h1 {
+  color: #3e2723; /* Dark brown */
+  font-size: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically center align items */
+  
+}
+
+.header-logo {
+  margin-top: 10px;
+  height: 20px; /* Adjust as needed */
+  margin-bottom: 50px;
+}
+
+.music-play-button {
+  margin-left: 15px; /* Space between the logo and the play button */
+}

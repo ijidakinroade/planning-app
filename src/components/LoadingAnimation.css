@@ -1,0 +1,10 @@
+/* LoadingAnimation.css */
+.loading-animation {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .loading-animation img {
+    width: 300px; /* Adjust based on your GIF */
+    margin-bottom: 10px;
+  }
