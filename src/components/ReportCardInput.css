@@ -1,0 +1,16 @@
+/* File: src/components/ReportCardInput.css */
+
+.report-card-input {
+    margin: 20px;
+  }
+  
+  .report-card-input textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .report-card-input button {
+    cursor: pointer;
+  }
+  
