@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/planning-app/static/css/main.8cc80638.css",
+    "main.js": "/planning-app/static/js/main.85e27732.js",
+    "static/js/787.373ff81b.chunk.js": "/planning-app/static/js/787.373ff81b.chunk.js",
+    "static/media/background.gif": "/planning-app/static/media/background.02e5dbb99823029f8907.gif",
+    "static/media/sakura.gif": "/planning-app/static/media/sakura.ab3cb875c70c3e5ffe6a.gif",
+    "static/media/matcha.ttf": "/planning-app/static/media/matcha.c62c5be6aa44245f0e49.ttf",
+    "static/media/cottage_sakura_logo.svg": "/planning-app/static/media/cottage_sakura_logo.f9bebc4b491291247f76f790847c8d1c.svg",
+    "index.html": "/planning-app/index.html",
+    "main.8cc80638.css.map": "/planning-app/static/css/main.8cc80638.css.map",
+    "main.85e27732.js.map": "/planning-app/static/js/main.85e27732.js.map",
+    "787.373ff81b.chunk.js.map": "/planning-app/static/js/787.373ff81b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cc80638.css",
+    "static/js/main.85e27732.js"
+  ]
+}
